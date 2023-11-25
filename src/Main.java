@@ -10,6 +10,15 @@ public class Main {
         }
 
 
+        String car[] = {"camaro","mustang"};
+
+        for (int i = 0; i< car.length; i++){
+            System.out.println(car[i]);
+        }
+
+
+
+
 
 
 
