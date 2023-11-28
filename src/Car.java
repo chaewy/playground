@@ -1,14 +1,17 @@
 public class Car {
 
-    String make = "porsche";
-    String origin = "german";
-    Integer power = 900;
+    String make;
+    String origin;
+    Integer power;
 
-    void gas(){
-        System.out.println("This car is moving");
+    Car(String make, String origin, Integer power){
+        this.make = make;
+        this.origin = origin;
+        this.power = power;
     }
-    void brake(){
-        System.out.println("This car is stopping");
+
+    void desc(){
+        System.out.println(this.make + " is from "+this.origin + " and equipped with "+ this.power + " HP engine");
     }
 
 }
