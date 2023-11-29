@@ -1,9 +1,4 @@
-public class Car {
+public class Car extends Vehicle {
 
-    String make;
-
-    Car(String make){
-        this.make = make;
-    }
-
+    double speed = 900;
 }
