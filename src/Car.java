@@ -1,11 +1,9 @@
 public class Car {
 
-    String make = "audi";
-    String origin = "germany";
-    Integer power = 900;
+    String make;
 
-    public String toString(){
-        return make+"\n"+origin+"\n"+power;
+    Car(String make){
+        this.make = make;
     }
 
 }
