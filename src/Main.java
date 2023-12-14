@@ -2,10 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car = new Car();
+        String[] car = {"supra", "camaro", "lambo"};
 
-        System.out.println(car.speed);
-        car.go();
+        for (String x : car) {
+            System.out.println(x);
         }
 
     }
+}
